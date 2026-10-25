@@ -9,31 +9,23 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
-  <img src="docs/dashboard.png" alt="Full dashboard: resources, weather, voice core, activity log and directives" width="900" />
+  <img src="docs/demo.gif" alt="Demo: speaking a command and getting a spoken reply" width="800" />
 </p>
 
-<p align="center">
-  <img src="docs/voice-core-amber.png" alt="Voice core orb in the amber theme" width="420" />
-</p>
+<!-- TODO: record a 10–20s screen capture (voice command → orb reacts → spoken reply) and save it as docs/demo.gif -->
 
 ---
 
 ## ✨ Features
 
 ### 🔵 Voice-reactive core
-- Animated wireframe orb rendered with **Three.js** that responds to microphone input in real time.
-- Status indicator (`IDLE` / listening / speaking) and switchable colour themes (e.g. emerald, amber).
+- Animated central orb rendered with **Three.js** that responds to microphone input in real time.
+- Sci-fi HUD layout with an activity log and interactive widgets.
 
 ### 🎙️ Voice and text input
-- Click **Start listening** or press **Space** to talk (**Web Speech API** speech recognition).
-- Or type commands into the activity log, or use the quick buttons: **Diagnostics**, **Help**, **Clear log**, **Alarm**.
+- Speak commands through the browser microphone (**Web Speech API** speech recognition).
+- Or type them into the activity log.
 - Replies are spoken aloud using the browser's built-in **text-to-speech** voices.
-
-### 📊 HUD widgets
-- **Resources:** CPU, memory and network panels with live sparkline graphs.
-- **Weather:** current conditions (temperature, humidity, wind, pressure) with city search.
-- **Activity log:** timestamped terminal-style log of everything the assistant hears and does.
-- **Active directives:** a mission-style to-do list. Add, check off and delete directives.
 
 ### ⚡ Local commands (no API key needed)
 | Command | What it does |
